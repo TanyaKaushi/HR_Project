@@ -62,6 +62,8 @@ namespace HR_System
 
                     submenu_1.Visible = false;
                     submenu_2.Visible = false;
+                    submenu_3.Visible = false;
+                    submenu_4.Visible = false;
                 }
             }
             else
@@ -72,8 +74,8 @@ namespace HR_System
                 foreach (Button menuButton in panelMenu.Controls.OfType<Button>())
                 {
                     menuButton.Text = "    " + menuButton.Tag.ToString();
-                    menuButton.ImageAlign = ContentAlignment.MiddleCenter;
-                    menuButton.Padding = new Padding(0);
+                    menuButton.ImageAlign = ContentAlignment.MiddleLeft;
+                    menuButton.Padding = new Padding(20, 0, 0, 0);
 
                 }
             }
@@ -118,6 +120,7 @@ namespace HR_System
             submenu_1.Visible = false;
             submenu_2.Visible = false;
             submenu_3.Visible = false;
+            submenu_4.Visible = false;
         }
 
         private void hideSubmenu()
@@ -128,6 +131,8 @@ namespace HR_System
                 submenu_2.Visible = false;
             if (submenu_3.Visible == true)
                 submenu_3.Visible = false;
+            if (submenu_4.Visible == true)
+                submenu_4.Visible = false;
 
         }
 
@@ -211,10 +216,6 @@ namespace HR_System
             openChildForm(new ViewEmployee());
         }
 
-        private void btn__UpdateEmployee_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void btn_ViewChemical_Click(object sender, EventArgs e)
         {
@@ -224,6 +225,21 @@ namespace HR_System
         private void btn_AddChemical_Click(object sender, EventArgs e)
         {
             openChildForm(new Chemical());
+        }
+
+        private void btn_AddDepartment_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Departmant());
+        }
+
+        private void btn_Department_Click(object sender, EventArgs e)
+        {
+            showSubmenu(submenu_4);
+        }
+
+        private void btn_ViewDepartment_Click(object sender, EventArgs e)
+        {
+            openChildForm(new ViewDepartment());
         }
     }
 }
