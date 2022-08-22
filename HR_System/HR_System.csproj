@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>HR_System</RootNamespace>
     <AssemblyName>HR_System</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -111,6 +112,7 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="DBConnection.cs" />
     <Compile Include="Employee.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,11 +133,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewChemical Inventory.cs">
+    <Compile Include="ViewChemical History.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ViewChemical Inventory.Designer.cs">
-      <DependentUpon>ViewChemical Inventory.cs</DependentUpon>
+    <Compile Include="ViewChemical History.Designer.cs">
+      <DependentUpon>ViewChemical History.cs</DependentUpon>
     </Compile>
     <Compile Include="ViewChemical.cs">
       <SubType>Form</SubType>
@@ -180,8 +182,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="ViewChemical Inventory.resx">
-      <DependentUpon>ViewChemical Inventory.cs</DependentUpon>
+    <EmbeddedResource Include="ViewChemical History.resx">
+      <DependentUpon>ViewChemical History.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ViewChemical.resx">
       <DependentUpon>ViewChemical.cs</DependentUpon>
@@ -241,6 +243,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logout %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

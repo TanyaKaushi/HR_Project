@@ -6,18 +6,20 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data.SqlClient;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+
+
 namespace HR_System
 {
-    public partial class ViewChemical : Form
+    public partial class ViewChemical_Inventory : Form
     {
         SqlConnection cn = new SqlConnection();
         SqlCommand cm = new SqlCommand();
         SqlDataReader dr;
         DBConnection dbcon = new DBConnection();
 
-        public ViewChemical()
+        public ViewChemical_Inventory()
         {
             InitializeComponent();
             cn = new SqlConnection(dbcon.MyConnection());
@@ -27,26 +29,13 @@ namespace HR_System
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             string colName = dataGridView2.Columns[e.ColumnIndex].Name;
-            if (colName == "Edit2")
+            if (colName == "Delete")
             {
-
-                Chemical frm = new Chemical();
-
-
-                frm.lblId.Text = dataGridView2[1, e.RowIndex].Value.ToString();
-                frm.txtChemical.Text = dataGridView2[2, e.RowIndex].Value.ToString();
-
-                frm.btnSave.Enabled = false;
-                frm.btnUpdate.Enabled = true;
-                frm.ShowDialog();
-            }
-            else if (colName == "Delete2")
-            {
-                if (MessageBox.Show("Are you sure you want to Delete this Brand?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                if (MessageBox.Show("Are you sure you want to Delete this History?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
 
                     cn.Open();
-                    cm = new SqlCommand("delete from chemical where id like '" + dataGridView2[1, e.RowIndex].Value.ToString() + "'", cn);
+                    cm = new SqlCommand("delete from ChemicalHistory where id like '" + dataGridView2[1, e.RowIndex].Value.ToString() + "'", cn);
 
                     cm.ExecuteNonQuery();
                     cn.Close();
@@ -55,7 +44,6 @@ namespace HR_System
                     LoadRecords();
                 }
             }
-
         }
 
         public void LoadRecords()
@@ -63,19 +51,24 @@ namespace HR_System
             int i = 0;
             dataGridView2.Rows.Clear();
             cn.Open();
-            cm = new SqlCommand("select * from chemical order by chemicalName", cn);
+            cm = new SqlCommand("select * from ChemicalHistory where purchesdate between '" + datetime1.Value.ToString() + "' and '" + datetime2.Value.ToString() + "' order by id", cn);
             dr = cm.ExecuteReader();
             while (dr.Read())
             {
                 i += 1;
-                dataGridView2.Rows.Add(i, dr["id"].ToString(), dr["chemicalName"].ToString());
+                dataGridView2.Rows.Add(i, dr["id"].ToString(), dr["chemicalname"].ToString(), dr["qty"].ToString(), dr["stockinby"].ToString(), dr["purchesdate"].ToString(), dr["unitprice"].ToString(), dr["Total"].ToString());
             }
             dr.Close();
             cn.Close();
 
         }
 
-        private void ViewChemical_Load(object sender, EventArgs e)
+        private void datetime1_ValueChanged(object sender, EventArgs e)
+        {
+            LoadRecords();
+        }
+
+        private void datetime2_ValueChanged(object sender, EventArgs e)
         {
             LoadRecords();
         }

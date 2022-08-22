@@ -177,6 +177,7 @@ namespace HR_System
         private void btn_AddEmployee_Click_1(object sender, EventArgs e)
         {
             openChildForm(new Employee());
+            
         }
 
       

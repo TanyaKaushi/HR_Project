@@ -66,3 +66,24 @@ D:\HR-Project\HR-Project\HR_System\HR_System\bin\Debug\Guna.UI2.dll
 D:\HR-Project\HR-Project\HR_System\HR_System\obj\Debug\HR_System.ViewEmployee.resources
 D:\HR-Project\HR-Project\HR_System\HR_System\obj\Debug\HR_System.ViewChemical_Inventory.resources
 D:\HR-Project\HR-Project\HR_System\HR_System\obj\Debug\HR_System.ViewChemical.resources
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\bin\Debug\HR_System.exe.config
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\bin\Debug\HR_System.exe
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\bin\Debug\HR_System.pdb
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\bin\Debug\Guna.UI2.dll
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.csproj.AssemblyReference.cache
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.Branch.resources
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.Chemical.resources
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.ChemicalInventory.resources
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.Dashboard.resources
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.Employee.resources
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.Departmant.resources
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.Home.resources
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.Properties.Resources.resources
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.ViewChemical_Inventory.resources
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.ViewChemical.resources
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.ViewEmployee.resources
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.csproj.GenerateResource.cache
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.csproj.CoreCompileInputs.cache
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.csproj.CopyComplete
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.exe
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.pdb
