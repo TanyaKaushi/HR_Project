@@ -35,6 +35,7 @@
             this.btnDelete = new Guna.UI2.WinForms.Guna2Button();
             this.btnUpdate = new Guna.UI2.WinForms.Guna2Button();
             this.btnSave = new Guna.UI2.WinForms.Guna2Button();
+            this.lblId = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +57,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(765, 58);
             this.panel1.TabIndex = 3;
@@ -85,7 +86,7 @@
             this.txtDepartmentName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtDepartmentName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtDepartmentName.Location = new System.Drawing.Point(276, 77);
-            this.txtDepartmentName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDepartmentName.Margin = new System.Windows.Forms.Padding(2);
             this.txtDepartmentName.Name = "txtDepartmentName";
             this.txtDepartmentName.PasswordChar = '\0';
             this.txtDepartmentName.PlaceholderText = "Enter Name";
@@ -103,7 +104,7 @@
             this.btnDelete.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
             this.btnDelete.ForeColor = System.Drawing.Color.White;
             this.btnDelete.Location = new System.Drawing.Point(507, 132);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(2);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(160, 28);
             this.btnDelete.TabIndex = 24;
@@ -119,11 +120,12 @@
             this.btnUpdate.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
             this.btnUpdate.Location = new System.Drawing.Point(311, 132);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(160, 28);
             this.btnUpdate.TabIndex = 23;
             this.btnUpdate.Text = "UPDATE";
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnSave
             // 
@@ -135,12 +137,23 @@
             this.btnSave.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
             this.btnSave.ForeColor = System.Drawing.Color.White;
             this.btnSave.Location = new System.Drawing.Point(113, 132);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(160, 28);
             this.btnSave.TabIndex = 22;
             this.btnSave.Text = "SAVE";
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // lblId
+            // 
+            this.lblId.AutoSize = true;
+            this.lblId.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblId.Location = new System.Drawing.Point(11, 82);
+            this.lblId.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(22, 20);
+            this.lblId.TabIndex = 25;
+            this.lblId.Text = "id";
             // 
             // Departmant
             // 
@@ -148,6 +161,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(765, 210);
+            this.Controls.Add(this.lblId);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnSave);
@@ -155,8 +169,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Departmant";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EmployeeList";
             this.Load += new System.EventHandler(this.Departmant_Load);
             this.panel1.ResumeLayout(false);
@@ -171,9 +186,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
-        private Guna.UI2.WinForms.Guna2TextBox txtDepartmentName;
-        private Guna.UI2.WinForms.Guna2Button btnDelete;
-        private Guna.UI2.WinForms.Guna2Button btnUpdate;
-        private Guna.UI2.WinForms.Guna2Button btnSave;
+        public System.Windows.Forms.Label lblId;
+        public Guna.UI2.WinForms.Guna2TextBox txtDepartmentName;
+        public Guna.UI2.WinForms.Guna2Button btnDelete;
+        public Guna.UI2.WinForms.Guna2Button btnUpdate;
+        public Guna.UI2.WinForms.Guna2Button btnSave;
     }
 }

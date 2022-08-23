@@ -109,3 +109,4 @@ D:\New Repo\HR_Project\HR_System\obj\Debug\HR_System.csproj.CopyComplete
 D:\New Repo\HR_Project\HR_System\obj\Debug\HR_System.exe
 D:\New Repo\HR_Project\HR_System\obj\Debug\HR_System.pdb
 D:\New Repo\HR_Project\HR_System\obj\Debug\HR_System.ViewDepartment.resources
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.ViewDepartment.resources

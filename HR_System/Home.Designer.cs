@@ -132,7 +132,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(85, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(207, 32);
+            this.label1.Size = new System.Drawing.Size(162, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "HR Management";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -185,7 +185,7 @@
             this.submenu_4.Dock = System.Windows.Forms.DockStyle.Top;
             this.submenu_4.Location = new System.Drawing.Point(0, 823);
             this.submenu_4.Name = "submenu_4";
-            this.submenu_4.Size = new System.Drawing.Size(217, 132);
+            this.submenu_4.Size = new System.Drawing.Size(221, 132);
             this.submenu_4.TabIndex = 10;
             // 
             // btn_AddDepartment
@@ -199,7 +199,7 @@
             this.btn_AddDepartment.Location = new System.Drawing.Point(0, 64);
             this.btn_AddDepartment.Name = "btn_AddDepartment";
             this.btn_AddDepartment.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.btn_AddDepartment.Size = new System.Drawing.Size(217, 64);
+            this.btn_AddDepartment.Size = new System.Drawing.Size(221, 64);
             this.btn_AddDepartment.TabIndex = 6;
             this.btn_AddDepartment.Tag = "Add Department";
             this.btn_AddDepartment.Text = "Add Department";
@@ -218,7 +218,7 @@
             this.btn_ViewDepartment.Location = new System.Drawing.Point(0, 0);
             this.btn_ViewDepartment.Name = "btn_ViewDepartment";
             this.btn_ViewDepartment.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.btn_ViewDepartment.Size = new System.Drawing.Size(217, 64);
+            this.btn_ViewDepartment.Size = new System.Drawing.Size(221, 64);
             this.btn_ViewDepartment.TabIndex = 5;
             this.btn_ViewDepartment.Tag = "View Department";
             this.btn_ViewDepartment.Text = "View Department";
@@ -239,7 +239,7 @@
             this.btn_Department.Location = new System.Drawing.Point(0, 759);
             this.btn_Department.Name = "btn_Department";
             this.btn_Department.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btn_Department.Size = new System.Drawing.Size(217, 64);
+            this.btn_Department.Size = new System.Drawing.Size(221, 64);
             this.btn_Department.TabIndex = 9;
             this.btn_Department.Tag = "  Department";
             this.btn_Department.Text = "  Department";
@@ -253,7 +253,7 @@
             this.submenu_3.Dock = System.Windows.Forms.DockStyle.Top;
             this.submenu_3.Location = new System.Drawing.Point(0, 627);
             this.submenu_3.Name = "submenu_3";
-            this.submenu_3.Size = new System.Drawing.Size(217, 132);
+            this.submenu_3.Size = new System.Drawing.Size(221, 132);
             this.submenu_3.TabIndex = 8;
             // 
             // btn_AddChemicalInventory
@@ -267,7 +267,7 @@
             this.btn_AddChemicalInventory.Location = new System.Drawing.Point(0, 64);
             this.btn_AddChemicalInventory.Name = "btn_AddChemicalInventory";
             this.btn_AddChemicalInventory.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.btn_AddChemicalInventory.Size = new System.Drawing.Size(217, 64);
+            this.btn_AddChemicalInventory.Size = new System.Drawing.Size(221, 64);
             this.btn_AddChemicalInventory.TabIndex = 6;
             this.btn_AddChemicalInventory.Tag = "Chemical Inventory";
             this.btn_AddChemicalInventory.Text = "Chemical Inventory";
@@ -286,7 +286,7 @@
             this.btn_ViewChemInventory.Location = new System.Drawing.Point(0, 0);
             this.btn_ViewChemInventory.Name = "btn_ViewChemInventory";
             this.btn_ViewChemInventory.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.btn_ViewChemInventory.Size = new System.Drawing.Size(217, 64);
+            this.btn_ViewChemInventory.Size = new System.Drawing.Size(221, 64);
             this.btn_ViewChemInventory.TabIndex = 5;
             this.btn_ViewChemInventory.Tag = "View Chemical History";
             this.btn_ViewChemInventory.Text = "View Chemical History";
@@ -307,7 +307,7 @@
             this.btn_ChemicalInventory.Location = new System.Drawing.Point(0, 563);
             this.btn_ChemicalInventory.Name = "btn_ChemicalInventory";
             this.btn_ChemicalInventory.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btn_ChemicalInventory.Size = new System.Drawing.Size(217, 64);
+            this.btn_ChemicalInventory.Size = new System.Drawing.Size(221, 64);
             this.btn_ChemicalInventory.TabIndex = 7;
             this.btn_ChemicalInventory.Tag = "  Chemical Inventory";
             this.btn_ChemicalInventory.Text = "  Chemical Inventory";
@@ -321,7 +321,7 @@
             this.submenu_2.Dock = System.Windows.Forms.DockStyle.Top;
             this.submenu_2.Location = new System.Drawing.Point(0, 423);
             this.submenu_2.Name = "submenu_2";
-            this.submenu_2.Size = new System.Drawing.Size(217, 140);
+            this.submenu_2.Size = new System.Drawing.Size(221, 140);
             this.submenu_2.TabIndex = 6;
             // 
             // btn_AddChemical
@@ -335,7 +335,7 @@
             this.btn_AddChemical.Location = new System.Drawing.Point(0, 64);
             this.btn_AddChemical.Name = "btn_AddChemical";
             this.btn_AddChemical.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.btn_AddChemical.Size = new System.Drawing.Size(217, 64);
+            this.btn_AddChemical.Size = new System.Drawing.Size(221, 64);
             this.btn_AddChemical.TabIndex = 3;
             this.btn_AddChemical.Tag = "Add Chemical";
             this.btn_AddChemical.Text = "Add Chemical";
@@ -354,7 +354,7 @@
             this.btn_ViewChemical.Location = new System.Drawing.Point(0, 0);
             this.btn_ViewChemical.Name = "btn_ViewChemical";
             this.btn_ViewChemical.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.btn_ViewChemical.Size = new System.Drawing.Size(217, 64);
+            this.btn_ViewChemical.Size = new System.Drawing.Size(221, 64);
             this.btn_ViewChemical.TabIndex = 2;
             this.btn_ViewChemical.Tag = "View Chemical";
             this.btn_ViewChemical.Text = "View Chemical";
@@ -375,7 +375,7 @@
             this.btn_Chemical.Location = new System.Drawing.Point(0, 359);
             this.btn_Chemical.Name = "btn_Chemical";
             this.btn_Chemical.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btn_Chemical.Size = new System.Drawing.Size(217, 64);
+            this.btn_Chemical.Size = new System.Drawing.Size(221, 64);
             this.btn_Chemical.TabIndex = 5;
             this.btn_Chemical.Tag = "Chemical ";
             this.btn_Chemical.Text = "Chemical";
@@ -389,7 +389,7 @@
             this.submenu_1.Dock = System.Windows.Forms.DockStyle.Top;
             this.submenu_1.Location = new System.Drawing.Point(0, 228);
             this.submenu_1.Name = "submenu_1";
-            this.submenu_1.Size = new System.Drawing.Size(217, 131);
+            this.submenu_1.Size = new System.Drawing.Size(221, 131);
             this.submenu_1.TabIndex = 4;
             // 
             // btn_AddEmployee
@@ -403,7 +403,7 @@
             this.btn_AddEmployee.Location = new System.Drawing.Point(0, 64);
             this.btn_AddEmployee.Name = "btn_AddEmployee";
             this.btn_AddEmployee.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.btn_AddEmployee.Size = new System.Drawing.Size(217, 64);
+            this.btn_AddEmployee.Size = new System.Drawing.Size(221, 64);
             this.btn_AddEmployee.TabIndex = 3;
             this.btn_AddEmployee.Tag = "Add Employee";
             this.btn_AddEmployee.Text = "Add Employee";
@@ -422,7 +422,7 @@
             this.btn_ViewEmployee.Location = new System.Drawing.Point(0, 0);
             this.btn_ViewEmployee.Name = "btn_ViewEmployee";
             this.btn_ViewEmployee.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.btn_ViewEmployee.Size = new System.Drawing.Size(217, 64);
+            this.btn_ViewEmployee.Size = new System.Drawing.Size(221, 64);
             this.btn_ViewEmployee.TabIndex = 2;
             this.btn_ViewEmployee.Tag = "View Employee";
             this.btn_ViewEmployee.Text = "View Employee";
@@ -443,7 +443,7 @@
             this.btn_Employee.Location = new System.Drawing.Point(0, 164);
             this.btn_Employee.Name = "btn_Employee";
             this.btn_Employee.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btn_Employee.Size = new System.Drawing.Size(217, 64);
+            this.btn_Employee.Size = new System.Drawing.Size(221, 64);
             this.btn_Employee.TabIndex = 3;
             this.btn_Employee.Tag = "Employee";
             this.btn_Employee.Text = "Employee";
@@ -463,7 +463,7 @@
             this.btn_Dashboard.Location = new System.Drawing.Point(0, 100);
             this.btn_Dashboard.Name = "btn_Dashboard";
             this.btn_Dashboard.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btn_Dashboard.Size = new System.Drawing.Size(217, 64);
+            this.btn_Dashboard.Size = new System.Drawing.Size(221, 64);
             this.btn_Dashboard.TabIndex = 1;
             this.btn_Dashboard.Tag = "Dashboard";
             this.btn_Dashboard.Text = "Dashboard";
@@ -477,7 +477,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(0, 0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(217, 100);
+            this.panel6.Size = new System.Drawing.Size(221, 100);
             this.panel6.TabIndex = 0;
             // 
             // menuButton

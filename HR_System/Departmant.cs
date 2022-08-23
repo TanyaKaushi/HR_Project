@@ -32,6 +32,7 @@ namespace HR_System
             {
                 if (MessageBox.Show("Are you sure you want to save this Brand?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
+                   
                     cn.Open();
                     cm = new SqlCommand("INSERT INTo Department(departmentName)VALUEs(@departmentName)", cn);
                     cm.Parameters.AddWithValue("@departmentName", txtDepartmentName.Text);
@@ -41,6 +42,34 @@ namespace HR_System
                  //   clear();
                   //  frmlist.LoadRecords();
 
+
+
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (MessageBox.Show("Are you sure you want to Update this department?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    cn.Open();
+                    cm = new SqlCommand("update Department set departmentName = @departmentName where id like '" + lblId.Text + "'", cn);
+                    cm.Parameters.AddWithValue("@departmentName", txtDepartmentName.Text);
+                    cm.ExecuteNonQuery();
+                    cn.Close();
+                    MessageBox.Show("Record Has Been Updated!");
+                    txtDepartmentName.Clear();
+                 //   frmlist.LoadRecords();
+
+                    this.Dispose();
 
 
                 }
