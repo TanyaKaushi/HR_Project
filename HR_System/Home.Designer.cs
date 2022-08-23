@@ -55,6 +55,18 @@
             this.btn_Dashboard = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.menuButton = new System.Windows.Forms.PictureBox();
+            this.btn_Site = new System.Windows.Forms.Button();
+            this.submenu_5 = new System.Windows.Forms.Panel();
+            this.btn_AddSite = new System.Windows.Forms.Button();
+            this.btn_ViewSite = new System.Windows.Forms.Button();
+            this.btn_Other1 = new System.Windows.Forms.Button();
+            this.submenu_6 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.btn_Other2 = new System.Windows.Forms.Button();
+            this.submenu_7 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMax)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).BeginInit();
@@ -67,6 +79,9 @@
             this.submenu_1.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.menuButton)).BeginInit();
+            this.submenu_5.SuspendLayout();
+            this.submenu_6.SuspendLayout();
+            this.submenu_7.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -132,7 +147,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(85, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(162, 25);
+            this.label1.Size = new System.Drawing.Size(207, 32);
             this.label1.TabIndex = 1;
             this.label1.Text = "HR Management";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -162,6 +177,12 @@
             // 
             this.panelMenu.AutoScroll = true;
             this.panelMenu.BackColor = System.Drawing.Color.RoyalBlue;
+            this.panelMenu.Controls.Add(this.submenu_7);
+            this.panelMenu.Controls.Add(this.btn_Other2);
+            this.panelMenu.Controls.Add(this.submenu_6);
+            this.panelMenu.Controls.Add(this.btn_Other1);
+            this.panelMenu.Controls.Add(this.submenu_5);
+            this.panelMenu.Controls.Add(this.btn_Site);
             this.panelMenu.Controls.Add(this.submenu_4);
             this.panelMenu.Controls.Add(this.btn_Department);
             this.panelMenu.Controls.Add(this.submenu_3);
@@ -185,7 +206,7 @@
             this.submenu_4.Dock = System.Windows.Forms.DockStyle.Top;
             this.submenu_4.Location = new System.Drawing.Point(0, 823);
             this.submenu_4.Name = "submenu_4";
-            this.submenu_4.Size = new System.Drawing.Size(221, 132);
+            this.submenu_4.Size = new System.Drawing.Size(217, 132);
             this.submenu_4.TabIndex = 10;
             // 
             // btn_AddDepartment
@@ -199,7 +220,7 @@
             this.btn_AddDepartment.Location = new System.Drawing.Point(0, 64);
             this.btn_AddDepartment.Name = "btn_AddDepartment";
             this.btn_AddDepartment.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.btn_AddDepartment.Size = new System.Drawing.Size(221, 64);
+            this.btn_AddDepartment.Size = new System.Drawing.Size(217, 64);
             this.btn_AddDepartment.TabIndex = 6;
             this.btn_AddDepartment.Tag = "Add Department";
             this.btn_AddDepartment.Text = "Add Department";
@@ -218,7 +239,7 @@
             this.btn_ViewDepartment.Location = new System.Drawing.Point(0, 0);
             this.btn_ViewDepartment.Name = "btn_ViewDepartment";
             this.btn_ViewDepartment.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.btn_ViewDepartment.Size = new System.Drawing.Size(221, 64);
+            this.btn_ViewDepartment.Size = new System.Drawing.Size(217, 64);
             this.btn_ViewDepartment.TabIndex = 5;
             this.btn_ViewDepartment.Tag = "View Department";
             this.btn_ViewDepartment.Text = "View Department";
@@ -239,7 +260,7 @@
             this.btn_Department.Location = new System.Drawing.Point(0, 759);
             this.btn_Department.Name = "btn_Department";
             this.btn_Department.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btn_Department.Size = new System.Drawing.Size(221, 64);
+            this.btn_Department.Size = new System.Drawing.Size(217, 64);
             this.btn_Department.TabIndex = 9;
             this.btn_Department.Tag = "  Department";
             this.btn_Department.Text = "  Department";
@@ -253,7 +274,7 @@
             this.submenu_3.Dock = System.Windows.Forms.DockStyle.Top;
             this.submenu_3.Location = new System.Drawing.Point(0, 627);
             this.submenu_3.Name = "submenu_3";
-            this.submenu_3.Size = new System.Drawing.Size(221, 132);
+            this.submenu_3.Size = new System.Drawing.Size(217, 132);
             this.submenu_3.TabIndex = 8;
             // 
             // btn_AddChemicalInventory
@@ -267,7 +288,7 @@
             this.btn_AddChemicalInventory.Location = new System.Drawing.Point(0, 64);
             this.btn_AddChemicalInventory.Name = "btn_AddChemicalInventory";
             this.btn_AddChemicalInventory.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.btn_AddChemicalInventory.Size = new System.Drawing.Size(221, 64);
+            this.btn_AddChemicalInventory.Size = new System.Drawing.Size(217, 64);
             this.btn_AddChemicalInventory.TabIndex = 6;
             this.btn_AddChemicalInventory.Tag = "Chemical Inventory";
             this.btn_AddChemicalInventory.Text = "Chemical Inventory";
@@ -286,7 +307,7 @@
             this.btn_ViewChemInventory.Location = new System.Drawing.Point(0, 0);
             this.btn_ViewChemInventory.Name = "btn_ViewChemInventory";
             this.btn_ViewChemInventory.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.btn_ViewChemInventory.Size = new System.Drawing.Size(221, 64);
+            this.btn_ViewChemInventory.Size = new System.Drawing.Size(217, 64);
             this.btn_ViewChemInventory.TabIndex = 5;
             this.btn_ViewChemInventory.Tag = "View Chemical History";
             this.btn_ViewChemInventory.Text = "View Chemical History";
@@ -307,7 +328,7 @@
             this.btn_ChemicalInventory.Location = new System.Drawing.Point(0, 563);
             this.btn_ChemicalInventory.Name = "btn_ChemicalInventory";
             this.btn_ChemicalInventory.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btn_ChemicalInventory.Size = new System.Drawing.Size(221, 64);
+            this.btn_ChemicalInventory.Size = new System.Drawing.Size(217, 64);
             this.btn_ChemicalInventory.TabIndex = 7;
             this.btn_ChemicalInventory.Tag = "  Chemical Inventory";
             this.btn_ChemicalInventory.Text = "  Chemical Inventory";
@@ -321,7 +342,7 @@
             this.submenu_2.Dock = System.Windows.Forms.DockStyle.Top;
             this.submenu_2.Location = new System.Drawing.Point(0, 423);
             this.submenu_2.Name = "submenu_2";
-            this.submenu_2.Size = new System.Drawing.Size(221, 140);
+            this.submenu_2.Size = new System.Drawing.Size(217, 140);
             this.submenu_2.TabIndex = 6;
             // 
             // btn_AddChemical
@@ -335,7 +356,7 @@
             this.btn_AddChemical.Location = new System.Drawing.Point(0, 64);
             this.btn_AddChemical.Name = "btn_AddChemical";
             this.btn_AddChemical.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.btn_AddChemical.Size = new System.Drawing.Size(221, 64);
+            this.btn_AddChemical.Size = new System.Drawing.Size(217, 64);
             this.btn_AddChemical.TabIndex = 3;
             this.btn_AddChemical.Tag = "Add Chemical";
             this.btn_AddChemical.Text = "Add Chemical";
@@ -354,7 +375,7 @@
             this.btn_ViewChemical.Location = new System.Drawing.Point(0, 0);
             this.btn_ViewChemical.Name = "btn_ViewChemical";
             this.btn_ViewChemical.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.btn_ViewChemical.Size = new System.Drawing.Size(221, 64);
+            this.btn_ViewChemical.Size = new System.Drawing.Size(217, 64);
             this.btn_ViewChemical.TabIndex = 2;
             this.btn_ViewChemical.Tag = "View Chemical";
             this.btn_ViewChemical.Text = "View Chemical";
@@ -375,7 +396,7 @@
             this.btn_Chemical.Location = new System.Drawing.Point(0, 359);
             this.btn_Chemical.Name = "btn_Chemical";
             this.btn_Chemical.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btn_Chemical.Size = new System.Drawing.Size(221, 64);
+            this.btn_Chemical.Size = new System.Drawing.Size(217, 64);
             this.btn_Chemical.TabIndex = 5;
             this.btn_Chemical.Tag = "Chemical ";
             this.btn_Chemical.Text = "Chemical";
@@ -389,7 +410,7 @@
             this.submenu_1.Dock = System.Windows.Forms.DockStyle.Top;
             this.submenu_1.Location = new System.Drawing.Point(0, 228);
             this.submenu_1.Name = "submenu_1";
-            this.submenu_1.Size = new System.Drawing.Size(221, 131);
+            this.submenu_1.Size = new System.Drawing.Size(217, 131);
             this.submenu_1.TabIndex = 4;
             // 
             // btn_AddEmployee
@@ -403,7 +424,7 @@
             this.btn_AddEmployee.Location = new System.Drawing.Point(0, 64);
             this.btn_AddEmployee.Name = "btn_AddEmployee";
             this.btn_AddEmployee.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.btn_AddEmployee.Size = new System.Drawing.Size(221, 64);
+            this.btn_AddEmployee.Size = new System.Drawing.Size(217, 64);
             this.btn_AddEmployee.TabIndex = 3;
             this.btn_AddEmployee.Tag = "Add Employee";
             this.btn_AddEmployee.Text = "Add Employee";
@@ -422,7 +443,7 @@
             this.btn_ViewEmployee.Location = new System.Drawing.Point(0, 0);
             this.btn_ViewEmployee.Name = "btn_ViewEmployee";
             this.btn_ViewEmployee.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.btn_ViewEmployee.Size = new System.Drawing.Size(221, 64);
+            this.btn_ViewEmployee.Size = new System.Drawing.Size(217, 64);
             this.btn_ViewEmployee.TabIndex = 2;
             this.btn_ViewEmployee.Tag = "View Employee";
             this.btn_ViewEmployee.Text = "View Employee";
@@ -443,7 +464,7 @@
             this.btn_Employee.Location = new System.Drawing.Point(0, 164);
             this.btn_Employee.Name = "btn_Employee";
             this.btn_Employee.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btn_Employee.Size = new System.Drawing.Size(221, 64);
+            this.btn_Employee.Size = new System.Drawing.Size(217, 64);
             this.btn_Employee.TabIndex = 3;
             this.btn_Employee.Tag = "Employee";
             this.btn_Employee.Text = "Employee";
@@ -463,7 +484,7 @@
             this.btn_Dashboard.Location = new System.Drawing.Point(0, 100);
             this.btn_Dashboard.Name = "btn_Dashboard";
             this.btn_Dashboard.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btn_Dashboard.Size = new System.Drawing.Size(221, 64);
+            this.btn_Dashboard.Size = new System.Drawing.Size(217, 64);
             this.btn_Dashboard.TabIndex = 1;
             this.btn_Dashboard.Tag = "Dashboard";
             this.btn_Dashboard.Text = "Dashboard";
@@ -477,7 +498,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(0, 0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(221, 100);
+            this.panel6.Size = new System.Drawing.Size(217, 100);
             this.panel6.TabIndex = 0;
             // 
             // menuButton
@@ -489,6 +510,204 @@
             this.menuButton.TabIndex = 10;
             this.menuButton.TabStop = false;
             this.menuButton.Click += new System.EventHandler(this.btnMenu_Click);
+            // 
+            // btn_Site
+            // 
+            this.btn_Site.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btn_Site.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Site.FlatAppearance.BorderSize = 0;
+            this.btn_Site.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Site.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Site.ForeColor = System.Drawing.Color.White;
+            this.btn_Site.Image = global::HR_System.Properties.Resources.hierarchy;
+            this.btn_Site.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Site.Location = new System.Drawing.Point(0, 955);
+            this.btn_Site.Name = "btn_Site";
+            this.btn_Site.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btn_Site.Size = new System.Drawing.Size(217, 64);
+            this.btn_Site.TabIndex = 11;
+            this.btn_Site.Tag = "Sites";
+            this.btn_Site.Text = "Sites";
+            this.btn_Site.UseVisualStyleBackColor = false;
+            this.btn_Site.Click += new System.EventHandler(this.btn_Site_Click);
+            // 
+            // submenu_5
+            // 
+            this.submenu_5.Controls.Add(this.btn_AddSite);
+            this.submenu_5.Controls.Add(this.btn_ViewSite);
+            this.submenu_5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.submenu_5.Location = new System.Drawing.Point(0, 1019);
+            this.submenu_5.Name = "submenu_5";
+            this.submenu_5.Size = new System.Drawing.Size(217, 132);
+            this.submenu_5.TabIndex = 12;
+            // 
+            // btn_AddSite
+            // 
+            this.btn_AddSite.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btn_AddSite.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_AddSite.FlatAppearance.BorderSize = 0;
+            this.btn_AddSite.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_AddSite.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_AddSite.ForeColor = System.Drawing.Color.White;
+            this.btn_AddSite.Location = new System.Drawing.Point(0, 64);
+            this.btn_AddSite.Name = "btn_AddSite";
+            this.btn_AddSite.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.btn_AddSite.Size = new System.Drawing.Size(217, 64);
+            this.btn_AddSite.TabIndex = 6;
+            this.btn_AddSite.Tag = "Add Site";
+            this.btn_AddSite.Text = "Add Site";
+            this.btn_AddSite.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_AddSite.UseVisualStyleBackColor = false;
+            // 
+            // btn_ViewSite
+            // 
+            this.btn_ViewSite.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btn_ViewSite.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_ViewSite.FlatAppearance.BorderSize = 0;
+            this.btn_ViewSite.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ViewSite.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_ViewSite.ForeColor = System.Drawing.Color.White;
+            this.btn_ViewSite.Location = new System.Drawing.Point(0, 0);
+            this.btn_ViewSite.Name = "btn_ViewSite";
+            this.btn_ViewSite.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.btn_ViewSite.Size = new System.Drawing.Size(217, 64);
+            this.btn_ViewSite.TabIndex = 5;
+            this.btn_ViewSite.Tag = "View Site";
+            this.btn_ViewSite.Text = "View Site";
+            this.btn_ViewSite.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_ViewSite.UseVisualStyleBackColor = false;
+            // 
+            // btn_Other1
+            // 
+            this.btn_Other1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btn_Other1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Other1.FlatAppearance.BorderSize = 0;
+            this.btn_Other1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Other1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Other1.ForeColor = System.Drawing.Color.White;
+            this.btn_Other1.Image = global::HR_System.Properties.Resources.hierarchy;
+            this.btn_Other1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Other1.Location = new System.Drawing.Point(0, 1151);
+            this.btn_Other1.Name = "btn_Other1";
+            this.btn_Other1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btn_Other1.Size = new System.Drawing.Size(217, 64);
+            this.btn_Other1.TabIndex = 13;
+            this.btn_Other1.Tag = "Other";
+            this.btn_Other1.Text = "Other";
+            this.btn_Other1.UseVisualStyleBackColor = false;
+            this.btn_Other1.Click += new System.EventHandler(this.btn_Other1_Click);
+            // 
+            // submenu_6
+            // 
+            this.submenu_6.Controls.Add(this.button2);
+            this.submenu_6.Controls.Add(this.button3);
+            this.submenu_6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.submenu_6.Location = new System.Drawing.Point(0, 1215);
+            this.submenu_6.Name = "submenu_6";
+            this.submenu_6.Size = new System.Drawing.Size(217, 132);
+            this.submenu_6.TabIndex = 14;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(0, 64);
+            this.button2.Name = "button2";
+            this.button2.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.button2.Size = new System.Drawing.Size(217, 64);
+            this.button2.TabIndex = 6;
+            this.button2.Tag = "Add Site";
+            this.button2.Text = "Add Site";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(0, 0);
+            this.button3.Name = "button3";
+            this.button3.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.button3.Size = new System.Drawing.Size(217, 64);
+            this.button3.TabIndex = 5;
+            this.button3.Tag = "View Site";
+            this.button3.Text = "View Site";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // btn_Other2
+            // 
+            this.btn_Other2.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btn_Other2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Other2.FlatAppearance.BorderSize = 0;
+            this.btn_Other2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Other2.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Other2.ForeColor = System.Drawing.Color.White;
+            this.btn_Other2.Image = global::HR_System.Properties.Resources.hierarchy;
+            this.btn_Other2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Other2.Location = new System.Drawing.Point(0, 1347);
+            this.btn_Other2.Name = "btn_Other2";
+            this.btn_Other2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btn_Other2.Size = new System.Drawing.Size(217, 64);
+            this.btn_Other2.TabIndex = 15;
+            this.btn_Other2.Tag = "Other";
+            this.btn_Other2.Text = "Other";
+            this.btn_Other2.UseVisualStyleBackColor = false;
+            this.btn_Other2.Click += new System.EventHandler(this.btn_Other2_Click);
+            // 
+            // submenu_7
+            // 
+            this.submenu_7.Controls.Add(this.button5);
+            this.submenu_7.Controls.Add(this.button6);
+            this.submenu_7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.submenu_7.Location = new System.Drawing.Point(0, 1411);
+            this.submenu_7.Name = "submenu_7";
+            this.submenu_7.Size = new System.Drawing.Size(217, 132);
+            this.submenu_7.TabIndex = 16;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(0, 64);
+            this.button5.Name = "button5";
+            this.button5.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.button5.Size = new System.Drawing.Size(217, 64);
+            this.button5.TabIndex = 6;
+            this.button5.Tag = "Add Site";
+            this.button5.Text = "Add Site";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(0, 0);
+            this.button6.Name = "button6";
+            this.button6.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.button6.Size = new System.Drawing.Size(217, 64);
+            this.button6.TabIndex = 5;
+            this.button6.Tag = "View Site";
+            this.button6.Text = "View Site";
+            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.UseVisualStyleBackColor = false;
             // 
             // Home
             // 
@@ -517,6 +736,9 @@
             this.submenu_1.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.menuButton)).EndInit();
+            this.submenu_5.ResumeLayout(false);
+            this.submenu_6.ResumeLayout(false);
+            this.submenu_7.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -554,6 +776,18 @@
         private System.Windows.Forms.Panel submenu_4;
         private System.Windows.Forms.Button btn_AddDepartment;
         private System.Windows.Forms.Button btn_ViewDepartment;
+        private System.Windows.Forms.Panel submenu_5;
+        private System.Windows.Forms.Button btn_AddSite;
+        private System.Windows.Forms.Button btn_ViewSite;
+        private System.Windows.Forms.Button btn_Site;
+        private System.Windows.Forms.Panel submenu_7;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btn_Other2;
+        private System.Windows.Forms.Panel submenu_6;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btn_Other1;
     }
 }
 

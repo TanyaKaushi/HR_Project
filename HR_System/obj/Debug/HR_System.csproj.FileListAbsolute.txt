@@ -110,3 +110,25 @@ D:\New Repo\HR_Project\HR_System\obj\Debug\HR_System.exe
 D:\New Repo\HR_Project\HR_System\obj\Debug\HR_System.pdb
 D:\New Repo\HR_Project\HR_System\obj\Debug\HR_System.ViewDepartment.resources
 C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.ViewDepartment.resources
+D:\HR- Project new\HR_Project\HR_System\bin\Debug\HR_System.exe.config
+D:\HR- Project new\HR_Project\HR_System\bin\Debug\HR_System.exe
+D:\HR- Project new\HR_Project\HR_System\bin\Debug\HR_System.pdb
+D:\HR- Project new\HR_Project\HR_System\bin\Debug\Guna.UI2.dll
+D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.csproj.AssemblyReference.cache
+D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.Branch.resources
+D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.Chemical.resources
+D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.ChemicalInventory.resources
+D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.Dashboard.resources
+D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.Employee.resources
+D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.Departmant.resources
+D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.Home.resources
+D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.Properties.Resources.resources
+D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.ViewChemical_Inventory.resources
+D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.ViewChemical.resources
+D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.ViewDepartment.resources
+D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.ViewEmployee.resources
+D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.csproj.GenerateResource.cache
+D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.csproj.CoreCompileInputs.cache
+D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.csproj.CopyComplete
+D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.exe
+D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.pdb

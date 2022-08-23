@@ -64,6 +64,9 @@ namespace HR_System
                     submenu_2.Visible = false;
                     submenu_3.Visible = false;
                     submenu_4.Visible = false;
+                    submenu_5.Visible = false;
+                    submenu_6.Visible = false;
+                    submenu_7.Visible = false;
                 }
             }
             else
@@ -121,6 +124,9 @@ namespace HR_System
             submenu_2.Visible = false;
             submenu_3.Visible = false;
             submenu_4.Visible = false;
+            submenu_5.Visible = false;
+            submenu_6.Visible = false;
+            submenu_7.Visible = false;
         }
 
         private void hideSubmenu()
@@ -133,6 +139,12 @@ namespace HR_System
                 submenu_3.Visible = false;
             if (submenu_4.Visible == true)
                 submenu_4.Visible = false;
+            if (submenu_5.Visible == true)
+                submenu_5.Visible = false;
+            if (submenu_6.Visible == true)
+                submenu_6.Visible = false;
+            if (submenu_7.Visible == true)
+                submenu_7.Visible = false;
 
         }
 
@@ -240,6 +252,21 @@ namespace HR_System
         private void btn_ViewDepartment_Click(object sender, EventArgs e)
         {
             openChildForm(new ViewDepartment());
+        }
+
+        private void btn_Site_Click(object sender, EventArgs e)
+        {
+            showSubmenu(submenu_5);
+        }
+
+        private void btn_Other1_Click(object sender, EventArgs e)
+        {
+            showSubmenu(submenu_6);
+        }
+
+        private void btn_Other2_Click(object sender, EventArgs e)
+        {
+            showSubmenu(submenu_7);
         }
     }
 }
