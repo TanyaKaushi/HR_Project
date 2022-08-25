@@ -161,11 +161,6 @@ namespace HR_System
 
     
 
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void menubtn_Click(object sender, EventArgs e)
         {
             //CollapseMenu();
@@ -267,6 +262,21 @@ namespace HR_System
         private void btn_Other2_Click(object sender, EventArgs e)
         {
             showSubmenu(submenu_7);
+        }
+
+        private void btn_AddSite_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Sites());
+        }
+
+        private void btn_ViewSite_Click(object sender, EventArgs e)
+        {
+            openChildForm(new ViewSites());
+        }
+
+        private void btnAttencenceIn_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Attendence_IN());
         }
     }
 }

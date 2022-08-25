@@ -132,3 +132,6 @@ D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.csproj.CoreCompileIn
 D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.csproj.CopyComplete
 D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.exe
 D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.pdb
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.Sites.resources
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.ViewSites.resources
+C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.Attendence_IN.resources
