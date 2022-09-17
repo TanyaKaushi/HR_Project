@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace HR_System
 {
-    public partial class Branch : Form
+    public partial class ViewChequeBook : Form
     {
-        public Branch()
+        public ViewChequeBook()
         {
             InitializeComponent();
-        }
-
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            this.Dispose();
         }
     }
 }

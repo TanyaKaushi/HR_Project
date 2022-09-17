@@ -31,6 +31,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btnClose = new System.Windows.Forms.PictureBox();
             this.lblId = new System.Windows.Forms.Label();
             this.txtEmpCode = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -71,6 +72,7 @@
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -105,6 +107,7 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.btnClose);
             this.panel3.Controls.Add(this.lblId);
             this.panel3.Controls.Add(this.txtEmpCode);
             this.panel3.Controls.Add(this.label1);
@@ -115,6 +118,19 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(918, 123);
             this.panel3.TabIndex = 35;
+            // 
+            // btnClose
+            // 
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClose.Image = global::HR_System.Properties.Resources.close1;
+            this.btnClose.Location = new System.Drawing.Point(866, 15);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(25, 25);
+            this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnClose.TabIndex = 48;
+            this.btnClose.TabStop = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // lblId
             // 
@@ -719,6 +735,7 @@
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnClose)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
@@ -770,5 +787,6 @@
         public Guna.UI2.WinForms.Guna2Button btnUpdate;
         public System.Windows.Forms.Label lblId;
         public System.Windows.Forms.ComboBox txtGender;
+        private System.Windows.Forms.PictureBox btnClose;
     }
 }

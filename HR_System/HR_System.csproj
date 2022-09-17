@@ -112,6 +112,12 @@
     <Compile Include="ChemicalInventory.Designer.cs">
       <DependentUpon>ChemicalInventory.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChequeBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChequeBook.Designer.cs">
+      <DependentUpon>ChequeBook.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -157,6 +163,12 @@
     <Compile Include="ViewChemical.Designer.cs">
       <DependentUpon>ViewChemical.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewChequeBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewChequeBook.Designer.cs">
+      <DependentUpon>ViewChequeBook.cs</DependentUpon>
+    </Compile>
     <Compile Include="ViewDepartment.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -186,6 +198,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChemicalInventory.resx">
       <DependentUpon>ChemicalInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChequeBook.resx">
+      <DependentUpon>ChequeBook.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
@@ -217,6 +232,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ViewChemical.resx">
       <DependentUpon>ViewChemical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewChequeBook.resx">
+      <DependentUpon>ViewChequeBook.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ViewDepartment.resx">
       <DependentUpon>ViewDepartment.cs</DependentUpon>

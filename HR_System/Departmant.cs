@@ -82,13 +82,9 @@ namespace HR_System
             }
         }
 
-
-
-
-
-
-
-
-
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }

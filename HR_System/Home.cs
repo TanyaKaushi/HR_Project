@@ -127,6 +127,7 @@ namespace HR_System
             submenu_5.Visible = false;
             submenu_6.Visible = false;
             submenu_7.Visible = false;
+            submenu_8.Visible = false;
         }
 
         private void hideSubmenu()
@@ -145,6 +146,8 @@ namespace HR_System
                 submenu_6.Visible = false;
             if (submenu_7.Visible == true)
                 submenu_7.Visible = false;
+            if (submenu_8.Visible == true)
+                submenu_8.Visible = false;
 
         }
 
@@ -277,6 +280,21 @@ namespace HR_System
         private void btnAttencenceIn_Click(object sender, EventArgs e)
         {
             openChildForm(new Attendence_IN());
+        }
+
+        private void btn_ChequeBook_Click(object sender, EventArgs e)
+        {
+            showSubmenu(submenu_8);
+        }
+
+        private void btn_ViewChequeBook_Click(object sender, EventArgs e)
+        {
+            openChildForm(new ViewChequeBook());
+        }
+
+        private void btn_AddChequeBook_Click(object sender, EventArgs e)
+        {
+            openChildForm(new ChequeBook());
         }
     }
 }

@@ -135,3 +135,30 @@ D:\HR- Project new\HR_Project\HR_System\obj\Debug\HR_System.pdb
 C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.Sites.resources
 C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.ViewSites.resources
 C:\Users\Anuradha\Desktop\HR Management\Development\HR_Project\HR_System\obj\Debug\HR_System.Attendence_IN.resources
+D:\HR - 2022-09-17\HR_Project\HR_System\bin\Debug\HR_System.exe.config
+D:\HR - 2022-09-17\HR_Project\HR_System\bin\Debug\HR_System.exe
+D:\HR - 2022-09-17\HR_Project\HR_System\bin\Debug\HR_System.pdb
+D:\HR - 2022-09-17\HR_Project\HR_System\bin\Debug\Guna.UI2.dll
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.csproj.AssemblyReference.cache
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.Attendence_IN.resources
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.Branch.resources
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.Chemical.resources
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.ChemicalInventory.resources
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.Dashboard.resources
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.Employee.resources
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.Departmant.resources
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.Home.resources
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.Properties.Resources.resources
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.Sites.resources
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.ViewChemical_Inventory.resources
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.ViewChemical.resources
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.ViewDepartment.resources
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.ViewEmployee.resources
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.ViewSites.resources
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.csproj.GenerateResource.cache
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.csproj.CoreCompileInputs.cache
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.csproj.CopyComplete
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.exe
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.pdb
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.ChequeBook.resources
+D:\HR - 2022-09-17\HR_Project\HR_System\obj\Debug\HR_System.ViewChequeBook.resources

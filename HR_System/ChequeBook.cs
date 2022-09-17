@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HR_System
 {
-    public partial class Branch : Form
+    public partial class ChequeBook : Form
     {
-        public Branch()
+        public ChequeBook()
         {
             InitializeComponent();
         }
